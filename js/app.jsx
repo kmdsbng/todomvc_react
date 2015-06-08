@@ -96,8 +96,6 @@ var app = app || {};
 				}
 			}, this);
 
-                        var shownTodos = [];
-
 			var todoItems = shownTodos.map(function (todo) {
 				return (
 					<TodoItem
