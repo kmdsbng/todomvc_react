@@ -36,8 +36,8 @@ app.TodoFooter = React.createClass({
             <a href="#/completed" className={cx({selected: nowShowing === app.COMPLETED_TODOS})}>Completed</a>
           </li>
 
-          {clearButton}
         </ul>
+        {clearButton}
       </footer>
     );
   }
